@@ -1,0 +1,151 @@
+* {
+	margin: 0;
+	padding:0;
+  box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+/*from here heading tag design*/
+.header{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.logo{
+  font-size: 2em;
+  color: black;
+  cursor: default;
+  display: inline-flex;
+  margin-right: 350px;
+}
+.navigation a{
+  font-size: 1.1em;
+  color:black;
+  text-decoration: none;
+  margin-right: 100px;
+  font-weight: 500;
+  display: inline-flex;
+}
+.navigation a:hover {
+  color: red;
+}
+.btn-talk{
+  color: white;
+  text-decoration: none;
+  padding: 8px 35px;
+  background: red;
+  border-radius: 10px;
+  border: 2px solid red;
+  font-weight: 500;
+}
+.btn-talk:hover{
+  color: red;
+  background: transparent;
+}
+
+/*from here body tag design*/
+
+body{
+	background: url("banner.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: 40%;
+  
+	}
+.form-box{
+height: 480px;
+width: 380px;
+position: relative;
+margin:6% auto;
+background: white;
+padding: 5px;
+overflow: hidden;
+}
+.button-box{
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #993300 ;
+  border-radius: 30px;
+}
+.toggle-btn{
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+#btn{
+  top:0;
+  left:0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border-radius:30px;
+  transition: .5s;
+}
+
+.socialmedia{
+  margin: 30px auto;
+  text-align: center;
+}
+.socialmedia img{
+  width: 30px;
+  margin: 0 12px;
+  box-shadow: 0 0 20px 0 #7f7f7f3d;
+  cursor:pointer;
+}
+.input-group{
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: .5s;
+}
+.input-field{
+  width:100%;
+  padding: 10px 0;
+  margin:5px 0;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+.Submit-btn{
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  border: 0;
+  outline: none;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border-radius: 30px;
+}
+.check-box{
+  margin: 30px 10px 30px 0 ;
+}
+.span{
+  color: red;
+  font-size: 12px;
+  bottom:68px;
+  position: absolute;
+}
+#Log-In{
+  left: 50px;
+}
+#Register{
+  left: 450px;
+}
+
